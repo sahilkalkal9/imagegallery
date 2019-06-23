@@ -1,0 +1,42 @@
+body
+{
+	margin:0px;
+}
+.active
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+img
+{
+	width:200px;
+	height:100px;
+	margin: 20px;
+	padding:2px;
+	border:4px dashed purple;
+	transition: all 1s;
+}
+img:hover
+{
+    transform: scale(1.7);
+}
+h1
+{
+	border-bottom: 2px dashed red;
+	width:300px;
+	font-family:fantasy;
+	font-color:blue;
+	text-align:center;
+	border-right: 4px dashed red;
+	box-shadow: 10px 10px 10px red;
+}
+.webtext
+{
+	border-bottom: 4px solid green;
+	border-right: 4px dashed red;
+	width:150px;
+	text-align:center;
+	font-size: 120%;
+	box-shadow: 4px 4px 4px 4px blue;
+}
